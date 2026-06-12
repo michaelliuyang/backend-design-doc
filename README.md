@@ -110,26 +110,15 @@ backend-design-doc/
 └── skills/
     ├── lanhu-skill/
     │   ├── SKILL.md
-    │   ├── agents/
-    │   │   └── openai.yaml
     │   └── references/
-    │       ├── lanhu-analysis-workflow.md
-    │       └── requirement-analysis-template.md
     └── write-design-doc/
         ├── SKILL.md
-        ├── agents/
-        │   └── openai.yaml
         └── references/
-            ├── api-rules.md
-            ├── backend-design-template.md
-            ├── error-codes.md
-            └── table-design-validation-rules.md
 ```
 
 ## 文件说明
 
 - `SKILL.md`：每个 Skill 的入口，定义触发场景、工作流程、输出要求和交付门禁。
-- `agents/openai.yaml`：Codex UI 元数据，用于展示名称、简介和默认提示；不影响 Claude Code 的执行。
 - `references/`：按需加载的详细规则、模板和工作流说明。
 - `.claude-plugin/marketplace.json`：Claude Code plugin marketplace 入口，声明整包插件和单 Skill 插件入口。
 
