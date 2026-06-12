@@ -1,0 +1,4 @@
+interface:
+  display_name: "分析蓝湖原型需求"
+  short_description: "从蓝湖 PRD/原型提取研发可用需求分析"
+  default_prompt: "使用 $lanhu-skill 分析蓝湖原型需求，并整理成后端详细设计的输入。"

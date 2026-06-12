@@ -1,0 +1,23 @@
+{
+  "backend-design-skills": {
+    "description": "Backend design workflow skills for Lanhu requirement analysis and detailed backend design documents.",
+    "source": "./",
+    "skills": [
+      "./skills"
+    ]
+  },
+  "lanhu-skill": {
+    "description": "Analyze Lanhu PRD, prototypes, design drafts, invite links, slices, comments, and produce engineering review outputs.",
+    "source": "./skills/lanhu-skill",
+    "skills": [
+      "./"
+    ]
+  },
+  "write-design-doc": {
+    "description": "Write backend detailed design documents from requirements, PRDs, architecture drafts, APIs, DDL, and existing code.",
+    "source": "./skills/write-design-doc",
+    "skills": [
+      "./"
+    ]
+  }
+}
